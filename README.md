@@ -1,12 +1,11 @@
-#Eureka ?
-
+<h1>Eureka</h1>
 MSA와 같은 분산 환경은 서비스 간의 원격 호출로 구성이 된다. 원격 서비스 호출은 IP 주소와 포트를 이용하는 방식이 되는다. 클라우드 환경이 되면서 서비스가 오토 스케일링등에 의해서 동적으로 생성되거나 컨테이너 기반의 배포로 인해서, 서비스의 IP가 동적으로 변경되는 일이 잦아졌다.
 그래서 서비스 클라이언트가 서비스를 호출할때 서비스의 위치 (즉 IP주소와 포트)를 알아낼 수 있는 기능이 필요한데, 이것을 바로 서비스 디스커버리 (Service discovery)라고 한다.
 여기서 Service Discovery 역할을 하는 것이 Eureka라고 말할 수 있다.
 
-Eureka는 AWS와 같은 Cloud 시스템에서 서비스의 로드 밸런싱과 실패처리 등을 유연하게 가져가 위해 각 서비스들의 IP / Port / InstanceId를 가지고 있는 REST 기반의 미들웨어 서버입니다.
+Eureka는 AWS와 같은 Cloud 시스템에서 서비스의 로드 밸런싱과 실패처리 등을 유연하게 가져가 위해 각 서비스들의 IP,Port,InstanceId를 가지고 있는 REST 기반의 미들웨어 서버입니다.
 
-#Eureka Server와 Eureka Client의 프로세스
+<h2>Eureka Server와 Eureka Client의 프로세스</h2>
 
 1. Eureka는 Client-Server의 방식으로 Eureka Server는 모든 Client 서버들이 본인의 IP와 Port, InstanceId를 Eureka-Server로 전달합니다. 그리고 Eureka에 있는 정보를 Fetch하여 Eureka-Client간 통신에 사용합니다.
 
@@ -23,7 +22,6 @@ Eureka는 AWS와 같은 Cloud 시스템에서 서비스의 로드 밸런싱과 �
 (* Eureka Sever와 Client를 구성하고 실제 Instance가 생성됨.)
  
  
-#출처
-
+* 출처
 https://tmdrl5779.tistory.com/181?category=875847
 
