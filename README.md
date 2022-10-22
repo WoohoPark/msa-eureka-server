@@ -6,7 +6,6 @@ MSA와 같은 분산 환경은 서비스 간의 원격 호출로 구성이 된�
 
 Eureka는 AWS와 같은 Cloud 시스템에서 서비스의 로드 밸런싱과 실패처리 등을 유연하게 가져가 위해 각 서비스들의 IP / Port / InstanceId를 가지고 있는 REST 기반의 미들웨어 서버입니다.
 
-
 #Eureka Server와 Eureka Client의 프로세스
 
 1. Eureka는 Client-Server의 방식으로 Eureka Server는 모든 Client 서버들이 본인의 IP와 Port, InstanceId를 Eureka-Server로 전달합니다. 그리고 Eureka에 있는 정보를 Fetch하여 Eureka-Client간 통신에 사용합니다.
@@ -22,3 +21,9 @@ Eureka는 AWS와 같은 Cloud 시스템에서 서비스의 로드 밸런싱과 �
 
 ![image](https://user-images.githubusercontent.com/24665763/197343309-c15d1628-bf72-448c-9dd6-3f29036ef9ea.png)
 (* Eureka Sever와 Client를 구성하고 실제 Instance가 생성됨.)
+ 
+ 
+#출처
+
+https://tmdrl5779.tistory.com/181?category=875847
+
