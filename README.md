@@ -20,10 +20,8 @@ Eureka는 AWS와 같은 Cloud 시스템에서 서비스의 로드 밸런싱과 �
 * HTTP통신으로 Eureka Client 등록,조회,삭제 등 다양한 기능을 사용할 수 있다.
 
 ![image](https://user-images.githubusercontent.com/24665763/197343309-c15d1628-bf72-448c-9dd6-3f29036ef9ea.png)
-* Eureka Sever와 Client를 통신하고 Instance가 생성됨.
- 
- 
+* Eureka Sever와 Client를 통신하고 Instance가 생성됨.<br>
 
-* 출처
+# 출처
 https://tmdrl5779.tistory.com/181?category=875847
 
